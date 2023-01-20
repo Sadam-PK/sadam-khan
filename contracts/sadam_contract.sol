@@ -2,10 +2,10 @@
 pragma solidity ^0.8.17;
 
 contract SadamContract {
-    int256 age;
-    string name;
-    string course;
-    bool isActive;
+    int256 private age;
+    string private name;
+    string private course;
+    bool private isActive;
 
     function setSadamData(
         int256 _age,
